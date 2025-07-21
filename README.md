@@ -1,1 +1,127 @@
 # jaswanthtechinfo
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jaswanth Tech Info</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      background-color: #222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav input[type="text"] {
+      padding: 8px;
+      width: 300px;
+      border-radius: 4px;
+      border: none;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    article {
+      background-color: #1e1e1e;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #1f1f1f;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+    }
+    .newsletter, .comments, .social {
+      margin-top: 40px;
+    }
+    .newsletter input[type="email"] {
+      padding: 10px;
+      width: 70%;
+      border: none;
+      border-radius: 5px;
+    }
+    .newsletter button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #03dac5;
+      color: #000;
+      cursor: pointer;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #03dac5;
+      text-decoration: none;
+    }
+    .comments textarea {
+      width: 100%;
+      height: 100px;
+      border-radius: 5px;
+      border: none;
+      padding: 10px;
+    }
+    .comments button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #bb86fc;
+      color: #000;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jaswanth Tech Info</h1>
+    <p>Explore all topics with the latest updates</p>
+  </header>  <nav>
+    <input type="text" placeholder="Search articles...">
+  </nav>  <main>
+    <article>
+      <h2>Welcome to Jaswanth Tech Info</h2>
+      <p>This blog covers everything — from tech to lifestyle, coding to gadgets, AI to daily hacks. Stay tuned!</p>
+    </article><div class="newsletter">
+  <h3>Subscribe to Our Newsletter</h3>
+  <input type="email" placeholder="Enter your email">
+  <button>Subscribe</button>
+</div>
+
+<div class="comments">
+  <h3>Leave a Comment</h3>
+  <textarea placeholder="Your comment..."></textarea>
+  <button>Post Comment</button>
+</div>
+
+<div class="social">
+  <h3>Follow Us</h3>
+  <a href="#">Instagram</a>
+  <a href="#">Twitter</a>
+  <a href="#">LinkedIn</a>
+  <a href="#">YouTube</a>
+</div>
+
+  </main>  <footer>
+    <p>&copy; 2025 Jaswanth Tech Info. All rights reserved.</p>
+  </footer>
+</body>
+</html>
